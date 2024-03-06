@@ -10,12 +10,12 @@ TASK 2: WORD COUNTER
 
 5. Iterate through the array of words and increment the counter for each word encountered. 
 
-6. Display the total count of words to the user. ✔️
+6. Display the total count of words to the user.
 
 You can further enhance the project by adding features such as:
 7. Ignoring common words or stop words.
 
-8. Providing statistics like the number of unique words or the frequency of each word.
+8. Provide statistics like the number of unique words or the frequency of each word.
 
 9. Implementing input validation to handle empty inputs or file errors.
 
