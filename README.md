@@ -1,1 +1,19 @@
-# CodSoft-Java-Internship
+# CODSOFT JAVA INTERNSHIP
+
+## TASK 1: NUMBER GAME
+![TASK1](Images/task1.PNG)
+
+## TASK 2: WORD COUNTER
+![TASK2](Images/task2.PNG)
+
+## TASK 3: STUDENT MANAGEMENT SYSTEM
+![TASK3](Images/task3_1.PNG)
+![TASK3](Images/task3_2.PNG)
+
+## TASK 4: ATM INTERFACE
+![TASK4](Images/task4_1.PNG)
+![TASK4](Images/task4_2.PNG)
+
+## TASK 5: ADDRESS BOOK SYSTEM
+![TASK5](Images/task5_1.PNG)
+![TASK5](Images/task5_2.PNG)
