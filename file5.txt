@@ -1,0 +1,16 @@
+NAME: ABC
+CONTACT: 9988775544
+E-MAIL: abc@gmail.com
+
+NAME: XYZ
+CONTACT: 9876543210
+E-MAIL: xyz@gmail.com
+
+NAME: IJK
+CONTACT: 9966442277
+E-MAIL: ijk@gmail.com
+
+NAME: MNO
+CONTACT: 9911888877
+E-MAIL: mno@gmail.com
+
