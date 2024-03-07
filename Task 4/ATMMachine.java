@@ -1,7 +1,6 @@
 import java.util.Scanner;
 
-// Bank Account class to store account balance
-class BankAccount {
+class BankAccount {								// Bank Account class to store account balance
 	private double balance;
 
 	public BankAccount(double initialBalance) {
@@ -28,8 +27,7 @@ class BankAccount {
 	}
 }	// close BankAccount class
 
-// ATM class to represent the ATM machine
-class ATM {
+class ATM {										// ATM class to represent the ATM machine
 	private BankAccount account;
 	private Scanner scanner;
 
@@ -49,7 +47,7 @@ class ATM {
 
 		while (true) {
 			displayMenu();
-			System.out.print("\nEnter your choice: ");
+			System.out.print("--> Enter your Choice: ");
 			int choice = scanner.nextInt();
 			System.out.println(" ");
 
@@ -64,7 +62,7 @@ class ATM {
 				checkwithdraw();
 				break;
 			case 4:
-				System.out.print("SYSTEM EXIT !!!");
+				System.out.print(" SYSTEM EXIT !!!");
 				System.exit(0);
 
 			default:
@@ -74,27 +72,29 @@ class ATM {
 	}
 
 	private void checkBalance() {
-		System.out.println("Your balance is: " + account.getBalance());
+		System.out.println(" Current Balance: " + account.getBalance());
 	}
 
 	private void checkdeposit() {
-		System.out.print("Enter amount to deposit: ");
+		System.out.print(" Enter Amount to Deposit: ");
 		double amount = scanner.nextDouble();
 		account.deposit(amount);
 
-		System.out.println("Deposit successful.");
+		System.out.println(" Deposit Successful.");
+		checkBalance();
 	}
 
 	private void checkwithdraw() {
-		System.out.print("Enter amount to withdraw: ");
+		System.out.print(" Enter Amount to Withdraw: ");
 		double amount = scanner.nextDouble();
 		boolean success = account.withdraw(amount);
 
 		if (success) {
-			System.out.println("Withdrawal Successful.");
+			System.out.println(" Withdrawal Successful.");
+			checkBalance();
 		} 
 		else {
-			System.out.println("Withdrawal Failed -- Insufficient Balance");
+			System.out.println(" Withdrawal Failed --> Insufficient Balance");
 		}
 	}
 }	// close ATM class
